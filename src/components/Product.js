@@ -41,6 +41,7 @@ export default class Product extends Component {
   }
 }
 
+// propTypes
 Product.propTypes = {
   product: PropTypes.shape({
     id: PropTypes.number,
@@ -51,6 +52,7 @@ Product.propTypes = {
   }).isRequired
 }
 
+//styled component
 const ProductWrapper = styled.div`
   .card{
     border-color: transparent;
